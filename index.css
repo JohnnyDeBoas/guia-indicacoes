@@ -1,0 +1,48 @@
+
+.button-primary{
+    background-color: #2591f0!important;
+    color: rgb(255, 250, 239)!important;
+}
+.button-primary:hover{
+    background-color: #1e549f!important;
+}
+
+.bground-primary{
+    background: rgb(95,113,243);
+    background: linear-gradient(309deg, rgba(95,113,243,0.4599089635854342) 0%, rgba(95,201,243,0.1293767507002801) 0%, rgba(255,255,255,0) 100%);
+}
+
+.card {
+    height: 320px!important;
+}
+
+/* animations */
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #4f00fb, #0000ff, #00bfff,#0000ff, #aa00ff, #6400fb, 
+		#0000ff, #00fffb,#00d5ff, #e100ff);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 40s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(5px);
+}
