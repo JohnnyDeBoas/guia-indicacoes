@@ -6,14 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c21d88c3d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Techlandia - Guia de indicações</title>
 </head>
 
 <body>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Melhores da semana</a></li>
+            <li><a href="#">Celulares</a></li>
+            <li><a href="#">Notebooks</a></li>
+            <li><a href="#">Acessorios</a></li>
+        </ul>
+    </div>
+    <label for="" class="back-btn"><i class="fas fa-arrow-left"></i></label>
+    <h2 class="text-center text-white">Melhores da semana</h2>
     <div id="da_semana" class="row container">
-        <div class="col-6 pt-5">
+        <div class="col-6 pt-2">
             <div class="card bground-primary block">
                 <img src="assets/produtos/xiaomi-mi-11-lite.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -26,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 pt-5">
+        <div class="col-6 pt-2">
             <div class="card bground-primary block">
                 <img src="assets/produtos/galazy-s23-ultra.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -92,14 +108,14 @@
                 </div>
             </div>
 
-    </div>
+        </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
-        integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
+            integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
